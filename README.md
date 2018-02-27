@@ -189,6 +189,9 @@ curl --header "Content-type: application/json" --request POST   --data '{"name":
 	Basic auth
 	X-CSRF-Token
 	
+	Response:
+	204 - No Content
+	
 
 - COMMENTS
 
