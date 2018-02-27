@@ -193,13 +193,19 @@ curl --header "Content-type: application/json" --request POST   --data '{"name":
 - COMMENTS
 
 	Get 
-	uspesno - bez authentifikacije
+	No auth needed.
 
 	Post
-	uspesno - auth, token
+	
+	Headers: 
+	Basic auth
+	X-CSRF-Token
 
-	Delete - uspesno: auth, token
-
+	Delete 
+	
+	Headers: 
+	Basic auth
+	X-CSRF-Token
 
 Vocabularies
 In D8, vocabularies are "Configuration Entities" and are not yet supported by core's REST. For starters, some folks are working towards GET as a minimum: #2300677: [PP-1] POST/PATCH/DELETE config entities via REST for config entity types that support validation
