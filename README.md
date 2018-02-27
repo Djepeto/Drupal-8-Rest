@@ -3,24 +3,25 @@
 These are examples taken from:
 https://www.drupal.org/docs/8/core/modules/rest/javascript-and-drupal-8-restful-web-services#nodes
 
-With added some REST calls. 
 
-Users
-Nodes
-Comments
-Vocabularies
-Terms
 
-Block (read-only)	
-Contact message
-Contact form (read-only)
-Custom block
-Flag (read-only)
-Paragraph
-Role (read-only)
-Taxonomy term
-Taxonomy vocabulary (read-only)
-Webform submission
+-Users
+-Nodes
+-Comments
+-Vocabularies
+-Terms
+
+With added some REST calls which may come in handy:
+-Block (read-only)	
+-Contact message
+-Contact form (read-only)
+-Custom block
+-Flag (read-only)
+-Paragraph
+-Role (read-only)
+-Taxonomy term
+-Taxonomy vocabulary (read-only)
+-Webform submission
 
 
 First we get our token at the next address:
